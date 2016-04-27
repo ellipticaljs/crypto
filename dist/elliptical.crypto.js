@@ -203,7 +203,9 @@
     crypto.base64=base64;
     crypto.base64Encrypt=function(o,n){
         return 'Basic ' + base64.encode(o + ":" + n);
-
+    };
+    crypto.getBase64Token=function(u,p){
+        return base64.encode(u + ":" + p);
     };
 
     return crypto;

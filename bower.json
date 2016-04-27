@@ -1,7 +1,7 @@
 {
   "name": "elliptical-crypto",
   "description": "Elliptical Crypto Library",
-  "version":"1.0.3",
+  "version":"1.0.4",
   "main": "dist/elliptical.crypto.js",
   "authors": [
     "S. Francis"
